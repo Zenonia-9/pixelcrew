@@ -1,0 +1,16 @@
+node_modules/
+.build/
+.build-next/
+.build-previous/
+artifacts/
+dist/
+.data/
+.codex/
+.protocol/
+*.log
+test-results/
+.env
+docs/*.jpg
+
+__pycache__/
+*.py[cod]

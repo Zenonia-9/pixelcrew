@@ -1,0 +1,8 @@
+[
+  {"id":"classic","name":"Classic","colors":{}},
+  {"id":"forest","name":"Forest","colors":{"purple":"#4d8768","pink":"#a5cca1","blue":"#9eb978","darkblue":"#476b55","green":"#455f56","orange":"#b4a16c","brown":"#756744","gold":"#dcc77e"}},
+  {"id":"ocean","name":"Ocean","colors":{"purple":"#457cbb","pink":"#9dd4e2","blue":"#7caae0","darkblue":"#3d588f","green":"#4b8b97","orange":"#84b5c8","brown":"#557b91","gold":"#b4e0ea"}},
+  {"id":"ember","name":"Ember","colors":{"purple":"#ba6450","pink":"#eeb899","blue":"#e6a275","darkblue":"#8a4a46","green":"#9b614e","orange":"#d8a16b","brown":"#95604e","gold":"#f1ce8f"}},
+  {"id":"violet","name":"Violet","colors":{"purple":"#9b72c5","pink":"#e0b8dc","blue":"#b8a3e0","darkblue":"#69558f","green":"#83629f","orange":"#b496cf","brown":"#836c9c","gold":"#e0b9eb"}},
+  {"id":"frost","name":"Frost","colors":{"purple":"#a5b9bd","pink":"#d2e7e1","blue":"#c1ddd9","darkblue":"#648b99","green":"#789497","orange":"#d8d0ba","brown":"#96a5ac","gold":"#bce6ed"}}
+]

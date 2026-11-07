@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "PixelCrew Chrome",
+  "version": "0.1.0",
+  "description": "Connect existing Chrome tabs to your local PixelCrew app.",
+  "minimum_chrome_version": "116",
+  "permissions": ["tabs", "debugger", "storage", "alarms"],
+  "host_permissions": ["http://127.0.0.1:4318/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "PixelCrew Chrome connection" }
+}

@@ -1,0 +1,8 @@
+.office-camera { position:relative; width:100%; height:clamp(300px,calc(100dvh - 260px),740px); min-height:0; overflow:hidden; touch-action:none; cursor:grab; user-select:none; }
+.office-camera:active { cursor:grabbing; }
+.office-camera-world { position:absolute; top:0; left:0; transform-origin:0 0; }
+.office-camera-world .office-scene { margin:0; }
+.office-expanded .office-camera { flex:1; height:auto; min-height:240px; }
+.office-animation-preview { font-size:11px; display:flex; align-items:center; gap:5px; }
+.office-wrap { position:relative; }
+.office-wrap > .arrange-tools { position:absolute; top:8px; left:8px; right:8px; z-index:12; background:#1b251ef2; border:1px solid var(--line); border-radius:6px; padding:8px; gap:6px; font-size:11px; }

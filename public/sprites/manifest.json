@@ -1,0 +1,97 @@
+{
+  "frameWidth": 32,
+  "frameHeight": 32,
+  "animations": {
+    "idle": [
+      0,
+      1
+    ],
+    "planning": [
+      2,
+      3
+    ],
+    "working": [
+      2,
+      3
+    ],
+    "approval": [
+      4
+    ],
+    "completed": [
+      5
+    ],
+    "failed": [
+      6
+    ],
+    "interrupted": [
+      6
+    ],
+    "waiting": [
+      7
+    ]
+  },
+  "characters": [
+    "atlas",
+    "pip",
+    "bolt",
+    "mira",
+    "nova"
+  ],
+  "looks": [
+    {
+      "id": "classic",
+      "name": "Classic"
+    },
+    {
+      "id": "forest",
+      "name": "Forest"
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean"
+    },
+    {
+      "id": "ember",
+      "name": "Ember"
+    },
+    {
+      "id": "violet",
+      "name": "Violet"
+    },
+    {
+      "id": "frost",
+      "name": "Frost"
+    }
+  ],
+  "walkSheet": {
+    "suffix": "-walk",
+    "directions": [
+      "down",
+      "down-left",
+      "left",
+      "up-left",
+      "up",
+      "up-right",
+      "right",
+      "down-right"
+    ],
+    "framesPerDirection": 8
+  },
+  "idleSheet": {
+    "suffix": "-life",
+    "frameCount": 6,
+    "sleeping": [
+      0
+    ],
+    "stretching": [
+      1,
+      2,
+      3,
+      2,
+      4,
+      2,
+      1,
+      5
+    ]
+  }
+}

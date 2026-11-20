@@ -1,0 +1,19 @@
+PixelCrew Software License
+
+Copyright (c) 2026 PixelCrew contributors. All rights reserved.
+
+You may install and use the PixelCrew application for personal or internal
+business purposes. You may keep a backup copy of the installer.
+
+You may not redistribute, sell, sublicense, or publish the PixelCrew
+application or its implementation without written permission from the
+applicable copyright holders. This agreement does not limit rights that
+applicable law makes non-waivable.
+
+Third-party components are governed by their own licenses. See the
+bundled NOTICE.md and accompanying license files for their terms.
+PixelCrew is separate from OpenAI and requires access to Codex.
+
+The application is provided as is, without warranties of any kind, to
+the extent permitted by applicable law. Nothing in these terms limits
+consumer protections or other rights that cannot be waived.

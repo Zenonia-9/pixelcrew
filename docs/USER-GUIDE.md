@@ -1,25 +1,41 @@
-# PixelCrew for Windows
+# PixelCrew Windows guide
 
-## Install and upgrade
+## 1. Install and open PixelCrew
 
-Download the Windows x64 installer from [PixelCrew Releases](https://github.com/Zenonia-9/pixelcrew/releases). Install and sign in to Codex separately, or connect your account under **Settings → Account**. Install [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if prompted.
+Download the Windows x64 installer from [PixelCrew Releases](https://github.com/Zenonia-9/pixelcrew/releases). Run Setup and choose whether to install for your Windows account or all users. The all-users option requires administrator approval.
 
-Setup can install for your Windows account or for all users. The all-users option requires administrator approval. For upgrades, choose **Quit PixelCrew** from the notification area first, then run the new installer over the existing installation.
+Install [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if Setup prompts for it. Open **PixelCrew** from Start or the optional desktop shortcut.
 
-## Open, close, and keep your data
+## 2. Connect a Codex account
 
-Open PixelCrew from Start or the optional desktop shortcut. Closing the window sends it to the notification area and active work can continue. Reopen from Start or choose **Open PixelCrew** from the tray icon. **Quit PixelCrew** stops the service and asks before interrupting active tasks.
+Install Codex separately. If you are signed in to Codex desktop, PixelCrew can use that connection. To add an account, open **Settings → Account**, then choose **Add account** for standard Codex sign-in or **Add PixelCrew account** for eligible plan access.
 
-Each Windows user has separate data in `%LOCALAPPDATA%\PixelCrew`. Back it up while PixelCrew is stopped. Uninstall through Windows Settings and choose **No** when asked to remove your data if you plan to reinstall. PixelCrew keeps your Codex sign-in and global configuration separate.
+Complete authorization in your default browser and return to PixelCrew. If the browser did not open, use **Open sign-in again** to retry the same attempt. Use the account menu to switch accounts. Work in progress keeps its original account.
 
-## Chats, Projects, and the composer
+## 3. Work with agents
 
-Click the PixelCrew logo to return to the office. Use **Chats** to search conversations or start a new chat. Use **Projects** to open or fold a project's chat list, pin projects, or start a chat in a workspace. On narrow windows, use the Chats or Projects control to return to the list.
+Use **Projects** to open a workspace, search and pin projects, or expand a project's chat list. Use **Chats** to search or start a conversation. Choose **Team** to coordinate specialists, **Plan** to investigate read-only, **Normal** to work directly with Codex, or **Goal** for an ongoing objective.
 
-When a chat is working, the composer shows a square to interrupt. Type a follow-up to switch it to Send. Enter uses the **Settings → General** follow-up preference, Ctrl+Enter uses the opposite behavior, and Shift+Enter inserts a newline. After interruption, clear the draft and select the Resume triangle to continue the same conversation with the original account. Resume sends no user message.
+Follow specialist progress, handoffs, and results in the conversation. Approve requests or answer questions when the crew needs a decision. While a turn is running, the square interrupts it. Typing a draft switches the square to Send. After an interruption, clear the draft to show the Resume triangle. It continues in the same conversation.
 
-## In-app Browser
+| Shortcut | Behavior |
+| --- | --- |
+| Enter | Sends the message with your configured follow-up preference |
+| Ctrl+Enter | Uses the opposite follow-up behavior for this message |
+| Shift+Enter | Starts a new line |
 
-Use the Browser icon to open the panel yourself. Agent Browser access starts off. Turn on **Allow agents to use Browser** under **Settings → General**, then select Browser in the chat. Each chat uses an isolated browser profile. Hiding the panel keeps its tabs available.
+Set your default follow-up preference in **Settings → General**.
 
-**Approve for me** skips prompts for hover, click, type, and drag when that approval mode applies. Opening a site and resetting Browser still ask for approval. Turn off agent access in Settings to block further agent Browser calls.
+## 4. Work with the in-app Browser
+
+Use the Browser icon to open or hide the panel. Agent access starts off. To grant access, enable **Allow agents to use Browser** under **Settings → General** and select Browser in the chat. Each chat uses an isolated browser profile.
+
+**Approve for me** skips prompts for hover, click, type, and drag when that approval mode applies. Opening a site and resetting Browser still ask. Turn off agent access in Settings to block further agent Browser calls.
+
+![PixelCrew Team conversation and the in-app Browser displaying the workshop guide](images/browser.png)
+
+## 5. Upgrade and keep your data
+
+Closing the window sends PixelCrew to the notification area, so active work can continue. Reopen from Start or the tray icon. To upgrade, choose **Quit PixelCrew** from the tray and then run the new installer over the existing installation.
+
+Each Windows user has separate data in `%LOCALAPPDATA%\PixelCrew`. Back it up while PixelCrew is stopped. When uninstalling through Windows Settings, choose **No** if asked to remove PixelCrew data you want to keep.

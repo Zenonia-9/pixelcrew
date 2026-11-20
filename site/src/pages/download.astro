@@ -1,0 +1,13 @@
+---
+import Layout from '../Layout.astro';
+import release from '../release.json';
+---
+<Layout title="Download for Windows">
+<h1>{release.published ? 'Download for Windows x64' : 'Windows release coming soon'}</h1>
+<p>PixelCrew {release.version} · Windows x64 · {release.signing} installer{release.date ? ' · ' + release.date : ''}</p>
+<p>Install Codex separately and sign in. Setup may prompt you to install Microsoft Edge WebView2.</p>
+<div class="actions">
+{release.published && <><a class="button primary" href={release.installer}>Download installer</a><a class="button" href={release.checksum}>SHA-256 checksum</a></>}
+<a class="button" href={import.meta.env.BASE_URL + 'guide/'}>Read the installation guide</a>
+</div>
+</Layout>

@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "published": false,
+  "date": null,
+  "signing": "Unsigned",
+  "installer": "https://github.com/Zenonia-9/pixelcrew/releases/download/v1.0.0/PixelCrew-1.0.0-windows-x64-setup.exe",
+  "checksum": "https://github.com/Zenonia-9/pixelcrew/releases/download/v1.0.0/PixelCrew-1.0.0-windows-x64-setup.exe.sha256"
+}

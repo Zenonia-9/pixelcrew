@@ -34,3 +34,5 @@ For Browser access, follow-up shortcuts, upgrades, and where your local data is 
 ## License
 
 PixelCrew is distributed under its [software license](LICENSE.txt). The installer includes licenses and notices for bundled third-party components. Codex access is separate.
+
+[PixelCrew website](https://zenonia-9.github.io/pixelcrew/)

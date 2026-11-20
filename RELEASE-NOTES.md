@@ -18,3 +18,5 @@ Download PixelCrew-1.0.0-windows-x64-setup.exe and compare its SHA-256 with the 
 The build, unit tests, and packaged WebView2 checks passed with fixture data. A completed sign-in with a test account, clean install, in-place upgrade, and uninstall with data preserved are pending on isolated Windows.
 
 Private build commit dee916be5f827615df30cf9ca389647bee4de0e4.
+
+[PixelCrew website and Windows guide](https://zenonia-9.github.io/pixelcrew/guide/)

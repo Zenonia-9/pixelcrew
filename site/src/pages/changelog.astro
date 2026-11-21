@@ -1,0 +1,23 @@
+---
+import Layout from '../Layout.astro';
+import { latestRelease, previousReleases } from '../releases';
+const releases = latestRelease ? [latestRelease, ...previousReleases] : [];
+---
+<Layout title="Changelog">
+  <h1>Changelog</h1>
+  {releases.map(release => (
+    <section class="release-entry">
+      <h2>PixelCrew v{release.version}</h2>
+      {release.date && <time datetime={release.date}>{release.date}</time>}
+      <p>{release.summary}</p>
+      <div class="actions">
+        <a href={release.installer}>Download v{release.version} for Windows x64</a>
+        <a href={release.notes}>v{release.version} release notes</a>
+      </div>
+    </section>
+  ))}
+</Layout>
+<style>
+.release-entry { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.release-entry time { color: var(--muted); }
+</style>

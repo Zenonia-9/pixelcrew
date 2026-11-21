@@ -18,5 +18,15 @@
     "checksum": null,
     "notes": "https://github.com/Zenonia-9/pixelcrew/releases/tag/v1.0.1",
     "summary": "Adds an installed version label and update notices, improves jumping to the latest message in interrupted chats, preserves Codex chat names, restores clipboard image previews, and adds workspace inspection in Plan mode."
+  },
+  {
+    "version": "1.0.2",
+    "published": false,
+    "date": null,
+    "signing": "Unsigned",
+    "installer": "https://github.com/Zenonia-9/pixelcrew/releases/download/v1.0.2/PixelCrew-1.0.2-windows-x64-setup.exe",
+    "checksum": null,
+    "notes": "https://github.com/Zenonia-9/pixelcrew/releases/tag/v1.0.2",
+    "summary": "Adds installed version and stable update checks. Fixes latest-message navigation for interrupted chats, preserves continued Codex chat titles, previews Codex clipboard images, and adds read-only workspace inspection in Plan mode."
   }
 ]

@@ -1,13 +1,13 @@
 ---
 import Layout from '../Layout.astro';
-import release from '../release.json';
+import { latestRelease as release } from '../releases';
 const base = import.meta.env.BASE_URL;
 ---
 <Layout title="A workspace for Codex agents">
 <section>
 <h1>Run a crew of Codex agents from one Windows workspace.</h1>
 <p>Assign work to specialists, follow their handoffs, and make decisions as your crew works.</p>
-<div class="actions"><a class="button primary" href={base + 'download/'}>{release.published ? 'Download for Windows x64' : 'Windows release coming soon'}</a><a class="button" href={base + 'guide/'}>Read the guide</a></div>
+<div class="actions"><a class="button primary" href={base + 'download/'}>{release ? 'Download for Windows x64' : 'Windows release coming soon'}</a><a class="button" href={base + 'guide/'}>Read the guide</a></div>
 <figure><a href={base + 'office.png'}><img src={base + 'office.png'} alt="PixelCrew office showing Atlas, Pip, Bolt, Mira, and Nova at their desks" /></a></figure>
 </section>
 <section><h2>Follow a Team task</h2><p>Choose a project and send a task in Team mode. Follow specialist assignments and results in the conversation, and review approval requests as they arrive.</p>

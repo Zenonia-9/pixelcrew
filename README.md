@@ -6,7 +6,7 @@
 
 Assign work to specialists, follow their handoffs and progress, and step in when your crew needs a decision.
 
-[Download for Windows x64](https://github.com/Zenonia-9/pixelcrew/releases) · [Windows guide](docs/USER-GUIDE.md)
+[Download for Windows x64](https://github.com/Zenonia-9/pixelcrew/releases) · [Windows guide](docs/USER-GUIDE.md) · [Privacy policy](docs/Privacy-policy.md)
 
 <img src="docs/images/office.png" alt="PixelCrew office with the Atlas, Pip, Bolt, Mira, and Nova crew" width="1000">
 

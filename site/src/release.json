@@ -11,8 +11,8 @@
   },
   {
     "version": "1.0.1",
-    "published": false,
-    "date": null,
+    "published": true,
+    "date": "2026-11-21",
     "signing": "Unsigned",
     "installer": "https://github.com/Zenonia-9/pixelcrew/releases/download/v1.0.1/PixelCrew-1.0.1-windows-x64-setup.exe",
     "checksum": null,

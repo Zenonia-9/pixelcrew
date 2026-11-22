@@ -2,18 +2,54 @@ PixelCrew Software License
 
 Copyright (c) 2026 PixelCrew contributors. All rights reserved.
 
-You may install and use the PixelCrew application for personal or internal
-business purposes. You may keep a backup copy of the installer.
+1. Scope and permission to use
 
-You may not redistribute, sell, sublicense, or publish the PixelCrew
-application or its implementation without written permission from the
-applicable copyright holders. This agreement does not limit rights that
-applicable law makes non-waivable.
+These terms describe the permissions granted by the PixelCrew copyright
+holders for the PixelCrew application and its implementation. You may
+install and use a lawfully obtained copy for personal or internal
+business purposes, including work within your organization. You may keep
+a backup copy of an installer you lawfully obtained for your own use.
 
-Third-party components are governed by their own licenses. See the
-bundled NOTICE.md and accompanying license files for their terms.
-PixelCrew is separate from OpenAI and requires access to Codex.
+2. Ownership and distribution
 
-The application is provided as is, without warranties of any kind, to
-the extent permitted by applicable law. Nothing in these terms limits
+The applicable copyright holders retain ownership of PixelCrew. You
+may not redistribute, sell, sublicense, or publish the PixelCrew
+application or its implementation without their written permission.
+Public access to release notes, documentation, or a repository does not
+by itself grant permission to redistribute the application or its
+implementation. This section does not limit rights granted under a
+separate third-party license or rights that applicable law makes
+non-waivable.
+
+3. Microsoft Store and third-party components
+
+The Microsoft Store has its own terms for obtaining and updating apps.
+For a Store copy, consult the license terms presented with that copy.
+Bundled third-party components are governed by their own licenses. See
+the bundled NOTICE.md and accompanying license files for details.
+
+4. Codex, your work, and backups
+
+PixelCrew is separate from OpenAI. Features that use Codex require
+separate access to Codex and are subject to the applicable OpenAI terms.
+This license applies to PixelCrew itself. It does not transfer ownership
+of files, prompts, or other content you provide. Any rights in output
+from Codex or another external service are subject to the terms
+applicable to that service.
+
+You may keep and restore your own PixelCrew data backups. For information
+about stored data, backup contents, and deletion, see the privacy policy:
+https://zenonia-9.github.io/pixelcrew/privacy/
+
+5. Warranty and consumer rights
+
+PixelCrew is provided as is, without warranties of any kind, to the
+extent permitted by applicable law. Nothing in these terms limits
 consumer protections or other rights that cannot be waived.
+
+6. License questions
+
+For license questions or permission requests, contact the publisher
+through https://github.com/Zenonia-9/pixelcrew/issues. Use the public
+tracker to ask for a private contact channel if your request involves
+confidential information.

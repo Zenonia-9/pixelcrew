@@ -1,0 +1,23 @@
+# Local application data and configuration
+/.data/
+/.codex/
+/.protocol/
+/.env
+
+# Dependencies, builds, and test output
+node_modules/
+/.build/
+/.build-next/
+/.build-previous/
+/artifacts/
+/dist/
+/test-results/
+*.log
+
+# Application source left in a shared checkout from development branches
+/desktop/
+/scripts/
+
+# Python caches
+__pycache__/
+*.py[cod]

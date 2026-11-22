@@ -15,8 +15,8 @@ const repo = 'https://github.com/Zenonia-9/pixelcrew';
 <a class="skip" href="#main">Skip to content</a>
 <header><nav aria-label="Main navigation">
 <a class="brand" href={base}>PixelCrew</a>
-<a href="https://apps.microsoft.com/detail/9MSPKZ7CZ3W1">Microsoft Store</a><a href={base + 'guide/'}>Guide</a>
-<a href={base + 'changelog/'}>Changelog</a></nav></header>
+<a href={base + 'download/'}>Download</a><a href={base + 'guide/'}>Guide</a>
+<a href={base + 'changelog/'}>Changelog</a><a class="nav-cta" href="https://apps.microsoft.com/detail/9MSPKZ7CZ3W1">Get PixelCrew ↗</a></nav></header>
 <main id="main"><slot /></main>
 <footer><a href="https://apps.microsoft.com/detail/9MSPKZ7CZ3W1">Get PixelCrew</a><a href={base + 'privacy/'}>Privacy policy</a><a href={repo + '/blob/v1.0-win64/LICENSE.txt'}>License</a><a href={base + 'changelog/'}>Changelog</a><a href={repo + '/issues'}>GitHub Issues</a></footer>
 </body></html>
@@ -26,17 +26,17 @@ const repo = 'https://github.com/Zenonia-9/pixelcrew';
 body{margin:0;background:var(--canvas);color:var(--ink);font:16px/1.6 'DM Sans',sans-serif}
 a{color:var(--gold)}
 a:focus-visible{outline:2px solid var(--gold);outline-offset:5px}
-header{border-bottom:1px solid var(--line)}
+header{border-bottom:1px solid #23252a;background:#010102}
 nav,main,footer{width:min(1100px,calc(100% - 40px));margin:auto}
 nav,footer,.actions{display:flex;align-items:center;gap:1rem;flex-wrap:wrap}
-nav,footer{padding:1rem 0}nav a{text-decoration:none;color:var(--ink)}.brand{margin-right:auto;font-weight:600;color:var(--gold)}
+nav,footer{padding:1rem 0} nav{min-height:68px;gap:1.5rem} nav a:not(.brand){font-size:14px;color:#d0d6e0} nav a:hover{color:#fff} nav .nav-cta{border:1px solid #34343a;border-radius:8px;padding:8px 12px}nav a{text-decoration:none;color:var(--ink)}.brand{margin-right:auto;font-weight:600;color:var(--gold)}
 main{padding:clamp(2.5rem,7vw,6rem) 0}footer{border-top:1px solid var(--line);font-size:.875rem}
 h1,h2{line-height:1.1;letter-spacing:-.035em;margin:0 0 1rem}h1{font-size:clamp(2.25rem,6vw,4.5rem);max-width:16ch}h2{font-size:clamp(1.45rem,3vw,2.5rem)}
 p{color:var(--muted);max-width:68ch}section+section{margin-top:clamp(3rem,8vw,6rem)}
-.button{display:inline-flex;padding:.55rem .95rem;border:1px solid var(--line);border-radius:.5rem;text-decoration:none;color:var(--ink);background:var(--surface)}
-.primary{background:var(--gold);color:var(--canvas);font-weight:600}
+.button{display:inline-flex;padding:.55rem .95rem;border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);background:var(--surface)}
+.button{min-height:42px;align-items:center;justify-content:center}.button:hover{border-color:#777}.primary{background:var(--gold);color:var(--canvas);font-weight:600}
 figure{margin:1.75rem 0 0}img{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:.65rem}figcaption{margin-top:.5rem;color:var(--muted)}
-.prose{max-width:76ch}.prose h2{margin-top:2.25rem}.prose table{width:100%;border-collapse:collapse}.prose th,.prose td{text-align:left;padding:.5rem;border-bottom:1px solid var(--line)}
+.prose{max-width:76ch}.prose p,.prose li{line-height:1.75;overflow-wrap:anywhere}.prose code{overflow-wrap:anywhere}.prose h1{font-size:clamp(40px,5vw,56px)}.prose h2{margin-top:2.25rem}.prose table{width:100%;border-collapse:collapse}.prose th,.prose td{text-align:left;padding:.5rem;border-bottom:1px solid var(--line)}
 .skip{position:absolute;left:1rem;top:1rem;background:var(--surface);padding:.5rem;transform:translateY(-200%)}.skip:focus{transform:none}
 @media(max-width:520px){.actions{align-items:flex-start;flex-direction:column}}
 </style>

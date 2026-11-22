@@ -19,5 +19,12 @@
     "date": "2026-11-21",
     "notes": "https://github.com/Zenonia-9/pixelcrew/releases/tag/v1.0.2",
     "summary": "Adds installed version and stable update checks. Fixes latest-message navigation for interrupted chats, preserves continued Codex chat titles, previews Codex clipboard images, and adds read-only workspace inspection in Plan mode."
+  },
+  {
+    "version": "1.0.7",
+    "published": true,
+    "date": null,
+    "notes": null,
+    "summary": "Back up and restore settings, teams, office layouts, and eligible local history with .pxc files. Open backups directly for review, add accounts through a compact dialog, and access Store updates from Settings."
   }
 ]

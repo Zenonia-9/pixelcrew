@@ -8,7 +8,6 @@ const base = import.meta.env.BASE_URL;
 <p>Assign work to specialists, follow their handoffs, and make decisions as your crew works.</p>
 <div class="actions"><a class="button primary" href="https://apps.microsoft.com/detail/9MSPKZ7CZ3W1">Get it from Microsoft Store</a><a class="button" href={base + 'guide/'}>Read the installation guide</a></div>
 <p>Free · Windows x64 · Automatic updates</p>
-<figure><img src={base + 'PixelCrew-Banner-1920x1080.png'} width="1920" height="1080" alt="PixelCrew pixel art banner" /></figure>
 </section>
 <section class="feature"><div><h2>Meet your crew</h2><p>Bring your specialists together in a workspace built for collaboration.</p></div>
 <figure><a href={base + 'office.png'}><img src={base + 'office.png'} alt="PixelCrew office showing Atlas, Pip, Bolt, Mira, and Nova at their desks" /></a></figure>
@@ -19,10 +18,10 @@ const base = import.meta.env.BASE_URL;
 
 <style>
 .hero { padding-top: clamp(12px, 3vw, 40px); }
-.hero h1 { max-width: 850px; font-size: clamp(42px, 6.8vw, 76px); font-weight: 600; line-height: 1.05; letter-spacing: -.045em; }
-.hero > p:first-of-type { max-width: 580px; font-size: 19px; line-height: 1.5; }
+.hero h1 { max-width: 850px; font-size: clamp(2rem, 6.8vw, 4.75rem); font-weight: 600; line-height: 1.08; letter-spacing: -.045em; }
+.hero > p:first-of-type { max-width: 580px; font-size: clamp(1rem, 2vw, 1.1875rem); line-height: 1.5; }
 .hero .actions { margin-top: 28px; }
-.hero figure, .feature figure { padding: clamp(8px, 1.5vw, 16px); background: #0f1011; border: 1px solid #23252a; border-radius: 16px; }
+.feature figure { padding: clamp(8px, 1.5vw, 16px); background: #0f1011; border: 1px solid #23252a; border-radius: 16px; }
 .feature { max-width: 100%; }
 .feature h2 { font-weight: 600; }
 </style>

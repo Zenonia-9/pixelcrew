@@ -2,13 +2,11 @@
 
 ## 1. Install and open PixelCrew
 
-Download the Windows x64 installer from [PixelCrew Releases](https://github.com/Zenonia-9/pixelcrew/releases). Run Setup and choose whether to install for your Windows account or all users. The all-users option requires administrator approval.
-
-Install [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if Setup prompts for it. Open **PixelCrew** from Start or the optional desktop shortcut.
+Install [PixelCrew from Microsoft Store](https://apps.microsoft.com/detail/9MSPKZ7CZ3W1) and open it from Start. If PixelCrew reports that WebView2 is missing, install the [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/).
 
 ## 2. Connect a Codex account
 
-Install Codex separately. If you are signed in to Codex desktop, PixelCrew can use that connection. To add an account, open **Settings → Account**, then choose **Add account** for standard Codex sign-in or **Add PixelCrew account** for eligible plan access.
+Install Codex separately. If you are signed in to Codex desktop, PixelCrew can use that connection. To add an account, open **Settings → Account**, choose **Add account**, then select **ChatGPT** or **PixelCrew plan**.
 
 Complete authorization in your default browser and return to PixelCrew. If the browser did not open, use **Open sign-in again** to retry the same attempt. Use the account menu to switch accounts. Work in progress keeps its original account.
 
@@ -32,10 +30,14 @@ Use the Browser icon to open or hide the panel. Agent access starts off. To gran
 
 **Approve for me** skips prompts for hover, click, type, and drag when that approval mode applies. Opening a site and resetting Browser still ask. Turn off agent access in Settings to block further agent Browser calls.
 
-![PixelCrew Team conversation and the in-app Browser displaying the workshop guide](images/browser.png)
+![PixelCrew Team conversation and the in-app Browser displaying the workshop guide](https://zenonia-9.github.io/pixelcrew/browser.png)
 
-## 5. Upgrade and keep your data
+## 5. Updates, backups, and migration
 
-Closing the window sends PixelCrew to the notification area, so active work can continue. Reopen from Start or the tray icon. To upgrade, choose **Quit PixelCrew** from the tray and then run the new installer over the existing installation.
+Microsoft Store manages updates. Closing the window sends PixelCrew to the tray, where work can continue. Choose **Quit PixelCrew** when you need to stop it completely.
 
-Each Windows user has separate data in `%LOCALAPPDATA%\PixelCrew`. Back it up while PixelCrew is stopped. When uninstalling through Windows Settings, choose **No** if asked to remove PixelCrew data you want to keep.
+On builds that support backups, open **Settings → Data → Back up data** and save the `.pxc` file outside the PixelCrew data folder. To restore it, choose **Restore backup**, review the preview, then confirm. Restored local history is read-only. Sign in again to any accounts you need.
+
+Moving from a standalone copy? Back up your data if that build supports it, quit the old copy, install the Store edition, and restore the backup. Confirm your data is recoverable before removing the old copy or its profile. If your standalone build has no backup control, keep its profile.
+
+Windows uninstall normally removes the Store edition’s package data. Backups saved separately remain where you saved them.

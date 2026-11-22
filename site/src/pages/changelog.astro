@@ -1,7 +1,6 @@
 ---
 import Layout from '../Layout.astro';
-import { latestRelease, previousReleases } from '../releases';
-const releases = latestRelease ? [latestRelease, ...previousReleases] : [];
+import { publishedReleases as releases } from '../releases';
 ---
 <Layout title="Changelog">
   <h1>Changelog</h1>
@@ -11,7 +10,6 @@ const releases = latestRelease ? [latestRelease, ...previousReleases] : [];
       {release.date && <time datetime={release.date}>{release.date}</time>}
       <p>{release.summary}</p>
       <div class="actions">
-        <a href={release.installer}>Download v{release.version} for Windows x64</a>
         <a href={release.notes}>v{release.version} release notes</a>
       </div>
     </section>

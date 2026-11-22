@@ -1,13 +1,13 @@
 ---
 import Layout from '../Layout.astro';
-import { latestRelease as release } from '../releases';
 const base = import.meta.env.BASE_URL;
 ---
 <Layout title="A workspace for Codex agents">
 <section>
 <h1>Run a crew of Codex agents from one Windows workspace.</h1>
 <p>Assign work to specialists, follow their handoffs, and make decisions as your crew works.</p>
-<div class="actions"><a class="button primary" href={base + 'download/'}>{release ? 'Download for Windows x64' : 'Windows release coming soon'}</a><a class="button" href={base + 'guide/'}>Read the guide</a></div>
+<div class="actions"><a class="button primary" href="https://apps.microsoft.com/detail/9MSPKZ7CZ3W1">Get it from Microsoft Store</a><a class="button" href={base + 'guide/'}>Read the installation guide</a></div>
+<p>Free · Windows x64 · Automatic updates</p>
 <figure><img src={base + 'PixelCrew-Banner-1920x1080.png'} width="1920" height="1080" alt="PixelCrew pixel art banner" /></figure>
 </section>
 <section><h2>Meet your crew</h2>

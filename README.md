@@ -6,7 +6,7 @@
 
 Assign work to specialists, follow their handoffs and progress, and step in when your crew needs a decision.
 
-[Download for Windows x64](https://github.com/Zenonia-9/pixelcrew/releases) · [Windows guide](docs/USER-GUIDE.md) · [Privacy policy](docs/Privacy-policy.md)
+[Get it from Microsoft Store](https://apps.microsoft.com/detail/9MSPKZ7CZ3W1) · [Windows guide](docs/USER-GUIDE.md) · [Privacy policy](docs/Privacy-policy.md)
 
 <img src="docs/images/office.png" alt="PixelCrew office with the Atlas, Pip, Bolt, Mira, and Nova crew" width="1000">
 
@@ -26,13 +26,13 @@ Assign work to specialists, follow their handoffs and progress, and step in when
 ## Get started on Windows
 
 1. Install Codex and sign in. To add another account, use **Settings → Account**. PixelCrew opens authorization in your default browser.
-2. Install [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if Setup prompts for it.
-3. Run the Windows x64 installer, then open PixelCrew from Start. Choose a project and send your first task.
+2. Install [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if PixelCrew cannot start without it.
+3. Install [PixelCrew from Microsoft Store](https://apps.microsoft.com/detail/9MSPKZ7CZ3W1), then open it from Start. Choose a project and send your first task.
 
 For Browser access, follow-up shortcuts, upgrades, and where your local data is stored, see the [Windows guide](docs/USER-GUIDE.md). See [Releases](https://github.com/Zenonia-9/pixelcrew/releases) for changes and known issues.
 
 ## License
 
-PixelCrew is distributed under its [software license](LICENSE.txt). The installer includes licenses and notices for bundled third-party components. Codex access is separate.
+PixelCrew is distributed under its [software license](LICENSE.txt). The app package includes licenses and notices for bundled third-party components. Codex access is separate.
 
 [PixelCrew website](https://zenonia-9.github.io/pixelcrew/)

@@ -1,6 +1,6 @@
 # PixelCrew Privacy Policy
 
-**Effective date: November 21, 2026**
+**Effective date: November 22, 2026**
 
 PixelCrew is a Windows desktop workspace for coordinating coding agents through the Codex App Server. This policy explains what PixelCrew stores, when information leaves your device, and the choices available to you.
 
@@ -28,7 +28,7 @@ App history, settings, attachments, account profiles, and browser data remain on
 
 To erase local PixelCrew data, exit PixelCrew from the tray so its local service is stopped, then remove that edition's data folder. The standalone edition stores data under `%LOCALAPPDATA%\PixelCrew`. The Microsoft Store edition stores it under `%LOCALAPPDATA%\Packages\Zenonia.PixelCrew_p1bh7pv6tb1na\LocalState\PixelCrew`. Deleting these folders permanently removes the local chats, settings, attachments, account data, and browser profiles they contain. Back up anything you want to keep first. OpenAI-held data must be managed through the relevant OpenAI account controls.
 
-If you choose to import data from the standalone edition into the Store edition, PixelCrew copies supported chats, settings, and attachments into the Store profile. The source profile is left in place. Account credentials and browser sessions are not imported; you must sign in again.
+When you back up data in PixelCrew, the app saves a `.pxc` file to a location you choose. It may contain settings, teams, layouts, selected local chat and run history, project paths, and stored attachments. Account records, credentials, browser cookies, and the Desktop Codex data folder are excluded. Backups can contain private content. Windows uninstall normally removes the Store edition’s package data, while separately saved backups and older custom profiles can remain. To remove a backup, delete it from its saved location.
 
 ## Security
 
@@ -36,7 +36,7 @@ PixelCrew keeps its backend bound to the local computer and uses local request p
 
 ## Your choices
 
-You can choose whether to use PixelCrew-managed accounts, which workspace and attachments to provide to agents, which agent permissions to allow, whether to enable agent Browser use, which websites to visit, and whether to import standalone-edition data. You can sign out of PixelCrew-managed accounts, clear browser profiles, or delete local app data using the instructions above. You may decline optional features that transmit data to external services.
+You can choose whether to use PixelCrew-managed accounts, which workspace and attachments to provide to agents, which agent permissions to allow, whether to enable agent Browser use, which websites to visit, and whether to back up or restore local data. You can sign out of PixelCrew-managed accounts, clear browser profiles, or delete local app data using the instructions above. You may decline optional features that transmit data to external services.
 
 ## Children
 

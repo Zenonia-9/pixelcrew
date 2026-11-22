@@ -36,7 +36,14 @@ p{color:var(--muted);max-width:68ch}section+section{margin-top:clamp(3rem,8vw,6r
 .button{display:inline-flex;padding:.55rem .95rem;border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);background:var(--surface)}
 .button{min-height:42px;align-items:center;justify-content:center}.button:hover{border-color:#777}.primary{background:var(--gold);color:var(--canvas);font-weight:600}
 figure{margin:1.75rem 0 0}img{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:.65rem}figcaption{margin-top:.5rem;color:var(--muted)}
-.prose{max-width:76ch}.prose p,.prose li{line-height:1.75;overflow-wrap:anywhere}.prose code{overflow-wrap:anywhere}.prose h1{font-size:clamp(2rem,5vw,3.5rem);max-width:none}.prose h2{margin-top:2.25rem}.prose table{width:100%;border-collapse:collapse}.prose th,.prose td{text-align:left;padding:.5rem;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.product-frame{padding:clamp(10px,2vw,18px);background:var(--surface);border:1px solid var(--line);border-radius:16px}
+.reading-panel,.prose{background:rgba(15,16,17,.88);border:1px solid var(--line);border-radius:16px;padding:clamp(14px,4vw,44px)}
+.prose{max-width:84ch}
+.guide-jumps{display:flex;gap:8px 16px;flex-wrap:wrap;margin-bottom:24px}
+.guide-jumps a{padding-block:5px}
+.prose h2[id]{scroll-margin-top:24px}
+@media(max-width:600px){body{background-attachment:scroll}.prose table th:first-child,.prose table td:first-child{overflow-wrap:normal;white-space:nowrap}}
+.prose p,.prose li{line-height:1.75;overflow-wrap:anywhere}.prose code{overflow-wrap:anywhere}.prose h1{font-size:clamp(2rem,5vw,3.5rem);max-width:none}.prose h2{margin-top:2.25rem}.prose table{width:100%;border-collapse:collapse}.prose th,.prose td{text-align:left;padding:.5rem;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
 .skip{position:absolute;left:1rem;top:1rem;background:var(--surface);padding:.5rem;transform:translateY(-200%)}.skip:focus{transform:none}
 @media(max-width:600px){nav{gap:.5rem 1rem}nav .brand{flex-basis:100%;margin-right:0}nav .nav-cta{margin-left:auto}.actions{align-items:stretch;flex-direction:column}.actions .button{width:100%}.prose th,.prose td{padding:.4rem .25rem}.prose table{font-size:.875rem}}
 </style>

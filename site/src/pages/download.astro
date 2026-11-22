@@ -3,12 +3,26 @@ import Layout from '../Layout.astro';
 const base = import.meta.env.BASE_URL;
 ---
 <Layout title="Install PixelCrew">
+<section class="install-grid">
+<div>
 <h1>Install PixelCrew on Windows</h1>
 <p>Free · Windows x64 · Automatic updates</p>
 <p>Install Codex separately and sign in to use PixelCrew.</p>
 <div class="actions">
 <a class="button primary" href="https://apps.microsoft.com/detail/9MSPKZ7CZ3W1">Get it from Microsoft Store</a>
-<a class="button" href={base + 'guide/'}>Read the installation guide</a>
+<a class="button" href={base + 'guide/#1-install-and-open-pixelcrew'}>Read the installation guide</a>
 </div>
-<p>Moving from the standalone edition? Read the guide before removing your old copy.</p>
+<p>Moving from the standalone edition? <a href={base + 'guide/#5-updates-backups-and-migration'}>Back up and restore your data</a> before removing your old copy.</p>
+</div>
+<figure class="product-frame">
+<a href={base + 'office.png'}><img src={base + 'office.png'} alt="PixelCrew office with five agents at their desks" /></a>
+<figcaption>See who is working and follow your crew from the office.</figcaption>
+</figure>
+</section>
 </Layout>
+<style>
+.install-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); align-items: center; gap: clamp(24px, 5vw, 64px); }
+.install-grid h1 { font-size: clamp(2rem, 4.3vw, 3.75rem); }
+.install-grid figure { margin: 0; }
+@media (max-width: 760px) { .install-grid { grid-template-columns: minmax(0, 1fr); } }
+</style>

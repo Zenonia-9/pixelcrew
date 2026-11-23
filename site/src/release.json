@@ -26,5 +26,12 @@
     "date": null,
     "notes": null,
     "summary": "Back up and restore settings, teams, office layouts, and eligible local history with .pxc files. Open backups directly for review, add accounts through a compact dialog, and access Store updates from Settings."
+  },
+  {
+    "version": "1.2.2",
+    "published": true,
+    "date": null,
+    "notes": null,
+    "summary": "PixelCrew now bundles the Codex runtime, keeps projects and chats in a durable local profile, and adds Device Transfer for projects, conversation history, memories, and supported settings. This release also improves account actions, chat text scaling, and the Windows composer."
   }
 ]

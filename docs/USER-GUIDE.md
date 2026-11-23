@@ -6,7 +6,7 @@ Install [PixelCrew from Microsoft Store](https://apps.microsoft.com/detail/9MSPK
 
 ## 2. Connect a Codex account
 
-Install Codex separately. If you are signed in to Codex desktop, PixelCrew can use that connection. To add an account, open **Settings → Account**, choose **Add account**, then select **ChatGPT** or **PixelCrew plan**.
+PixelCrew includes the Codex runtime, so you do not need to install Codex separately. To add an account, open **Settings → Account**, choose **Add account**, then select **ChatGPT** or **PixelCrew plan**. If you already use Codex, choose **Connect to Codex** to use that connection and **Sync from Codex** in Chats to import its conversations.
 
 Complete authorization in your default browser and return to PixelCrew. If the browser did not open, use **Open sign-in again** to retry the same attempt. Use the account menu to switch accounts. Work in progress keeps its original account.
 
@@ -36,8 +36,8 @@ Use the Browser icon to open or hide the panel. Agent access starts off. To gran
 
 Microsoft Store manages updates. Closing the window sends PixelCrew to the tray, where work can continue. Choose **Quit PixelCrew** when you need to stop it completely.
 
-On builds that support backups, open **Settings → Data → Back up data** and save the `.pxc` file outside the PixelCrew data folder. To restore it, choose **Restore backup**, review the preview, then confirm. Restored local history is read-only. Sign in again to any accounts you need.
+To move supported data to another device, open **Settings → Data → Device Transfer** and choose **Export .pxc**. On the other device, sign in, choose **Import .pxc**, review the preview, select replacement folders for any missing workspaces, and confirm. The transfer includes projects, conversation history, memories, and supported settings; credentials and browser sessions are excluded. Imported history is available as read-only copies. Keep the transfer file somewhere secure.
 
 Moving from a standalone copy? Back up your data if that build supports it, quit the old copy, install the Store edition, and restore the backup. Confirm your data is recoverable before removing the old copy or its profile. If your standalone build has no backup control, keep its profile.
 
-Windows uninstall normally removes the Store edition’s package data. Backups saved separately remain where you saved them.
+Store v1.2.2 normally keeps projects, chats, and memories under `%USERPROFILE%\.pixelcrew`, including after uninstall. Older custom Store profile locations remain in use. Sign-ins and browser sessions are stored separately in package data, so you may need to sign in again after reinstalling. Export important data before removing or resetting the app, and remember that separately saved transfer files remain where you saved them.

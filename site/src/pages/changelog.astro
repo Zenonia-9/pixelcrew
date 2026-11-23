@@ -9,7 +9,7 @@ import { publishedReleases as releases } from '../releases';
   {releases.map(release => (
     <section class="release-entry">
       <h2>PixelCrew v{release.version}</h2>
-      {release.version !== "1.0.7" && <span class="legacy">Legacy standalone EXE release</span>}
+      {['1.0.0', '1.0.1', '1.0.2'].includes(release.version) && <span class="legacy">Legacy standalone EXE release</span>}
       {release.date && <time datetime={release.date}>{release.date}</time>}
       <p>{release.summary}</p>
       <div class="actions">

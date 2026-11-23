@@ -25,9 +25,9 @@ Assign work to specialists, follow their handoffs and progress, and step in when
 
 ## Get started on Windows
 
-1. Install Codex and sign in. To add another account, use **Settings → Account**. PixelCrew opens authorization in your default browser.
-2. Install [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if PixelCrew cannot start without it.
-3. Install [PixelCrew from Microsoft Store](https://apps.microsoft.com/detail/9MSPKZ7CZ3W1), then open it from Start. Choose a project and send your first task.
+1. Install [PixelCrew from Microsoft Store](https://apps.microsoft.com/detail/9MSPKZ7CZ3W1), then open it from Start. PixelCrew includes the Codex runtime; a separate Codex installation is optional.
+2. Sign in under **Settings → Account**. PixelCrew opens authorization in your default browser. Choose a project and send your first task.
+3. Install [Microsoft Edge WebView2 Evergreen Runtime](https://developer.microsoft.com/microsoft-edge/webview2/) if PixelCrew reports that it is missing.
 
 For Browser access, follow-up shortcuts, upgrades, and where your local data is stored, see the [Windows guide](docs/USER-GUIDE.md). See [Releases](https://github.com/Zenonia-9/pixelcrew/releases) for changes and known issues.
 
